@@ -1,0 +1,314 @@
+.bg{ 
+    min-height: 100vh;
+    background: url("../images/img1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg2{ 
+    min-height: 100vh;
+    background: url("../images/img2.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg3{
+    min-height: 100vh;
+    background: url("../images/img3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg4{
+    min-height: 100vh;
+    background: url("../images/img1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bgDiv{
+    background: url("../images/img1.jpg") no-repeat center center scroll;
+    background-size: cover;
+}
+
+.panel{
+    width: 40%; 
+    height: 60%
+}
+
+.cover{
+    position: relative;
+}
+.caption{
+    position:absolute;
+    bottom: -6%; 
+    right:6%;
+}
+
+.main{
+    position: relative; 
+    margin-top: 50px; 
+    margin-bottom: 100px;
+}
+.sub{
+    position: absolute; 
+    left: 20%; 
+    top: 75%;
+}
+
+.subNav{
+    width: 30%;
+}
+
+.main-image{
+    position: relative; 
+    width:400px; 
+    height:400px;
+}
+.caption-image{
+    position: absolute; 
+    top: 20%; 
+    left:0; 
+    width:45%
+}
+
+.cover{
+    position:relative;
+}
+.sub-cover{
+    position:absolute; 
+    bottom:0; 
+    width:100%
+}
+
+.cards{
+    width: 75%
+}
+
+.list{
+    position: relative
+}
+.listSelect{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listLabel{
+    position: absolute; 
+    right:0; 
+    top:0; 
+    right: 2%;
+}
+
+.activate{
+    box-shadow: inset 0 -30px deeppink
+}
+.activated{
+    box-shadow: inset 0 -16px deeppink
+}
+.linkActivate{
+    box-shadow: inset 0 -8px deeppink;
+}
+.vr{
+    border-right: 2px solid white;
+}
+.cedric{
+    position: absolute; 
+    top:0; 
+    right:4.8%
+}
+.valerie{
+    position: absolute; 
+    bottom:0; 
+    left: 5.8%;
+}
+.cedric::before {
+    color: deeppink;
+    content: "Cedric"
+}
+.valerie::before{
+    color: deeppink;
+    content: "Valerie"
+}
+.name::after{
+    display: block;
+    color: deeppink;
+    content: attr(data-content)
+}
+
+.listStyled::before{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+
+.mainList::before{
+    content: "\2022";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+
+.listStyledV::before{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+.listStyledV::after{
+    content: "\2015";
+    color: deeppink;
+    width: 2em; 
+    margin-right: 0.5em;
+}
+.requireLabel::after{
+    content: " *";
+    color: black;
+}
+.arrow{
+    width:0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid ;
+}
+.arrowRight{
+    width:0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid ;
+    color: deeppink;
+}
+a.mainNav{
+    font-size: 2vw;
+}
+.mainNavDown{
+font-size: 1.5vw;
+}
+a.mainNav.show{
+    box-shadow: inset 0 -16px deeppink;
+    font-size: 2.5vw;
+}
+a.mainNavItem.show{
+    box-shadow: inset 0 -20px deeppink;
+    font-size: 2.5vw;
+}
+a.dropdown-item{
+    color: white;
+}
+a.dropdown-item:hover{
+    color: black;
+}
+
+.main-link::after{
+    content: ".";
+    font-size: 25px;
+    color: deeppink;
+}
+
+.replay{
+    margin-left: 136px;
+}
+/* footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} 
+.arrowLeft::after{
+    content: "\21FE";
+    color: deeppink;
+    width: 50px; 
+    padding: 0;
+    margin: 0;
+}*/
+
+@media only screen and (max-width: 1200px) {
+    .cedric{
+        right:3.5%
+    }
+    .valerie{
+        left: 4.5%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .cedric{
+        right:1%
+    }
+    .valerie{
+        left:2%;
+    }
+    .main{
+        position: unset; 
+        margin-top: 20px; 
+        margin-bottom: 30px;
+    }
+    .sub{
+        position: unset;
+    }
+    .subNav{
+        width:50%
+    }
+    .panel{
+        width: 80%;
+        height: 80%
+    }
+}
+@media only screen and (max-width: 770px) {
+    .cedric{
+        right:-2%
+    }
+    .valerie{
+        left:0
+    }
+    .cover{
+        position: unset;
+    }
+    .caption{
+        position: unset;
+    }
+    .subNav{
+        width:100%
+    }
+    .replay{
+        margin-left: 40px;
+    }
+    .main-image{
+        position: unset;
+        width:200px;
+        height: 200px
+    }
+    .caption-image{
+        position:unset;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cards{
+        width: 100%
+    }
+
+    .list{
+        position: unset
+    }
+    .listSelect{
+        width: 100%;
+    }
+    .listLabel{
+        position: unset; 
+    }
+
+    .cover{
+        position: unset;
+    }
+    .sub-cover{
+        position: unset;
+    }
+}

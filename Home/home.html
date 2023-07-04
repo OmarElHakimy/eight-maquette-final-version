@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <meta name="description" content="Home page for eight Maquette"/>
+        <link rel="canonical" href="/Home/home.html" />
+        <link rel="stylesheet" href="../assets/styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="d-flex" style="z-index: 100; position: absolute; top: 40%; left: 0; margin:-1%; writing-mode: vertical-rl; transform: rotate(-180deg); color: white;">
+            <p>Social Media</p>
+            <div class="listStyled d-flex align-items-center">
+                <a class="text-decoration-none text-light my-2 mx-0 main-link" href="#">FB</a>
+                <a class="text-decoration-none text-light my-2 mx-0 main-link" href="#">LN</a>
+                <a class="text-decoration-none text-light my-2 mx-0 main-link" href="#">IT</a>
+            </div>
+        </div>
+        <div class="d-flex text-light" style="z-index: 100; position: absolute; top: 40%; right: 0; writing-mode: vertical-rl; transform: rotate(-180deg); color: white;">
+            <p><span style="color: deeppink; writing-mode: horizontal-tb;">&copy;</span> 2022</p>
+            <div class="listStyledV d-flex align-items-center">
+                <p class="my-2">EIGHT-ID</p>
+            </div>
+        </div>
+        <div id="Home" class="carousel slide carousel-fade" data-bs-interval="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#Home" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner text-white">
+                <div class="carousel-item active bg px-4">
+                    <nav class="navbar">
+                        <div class="container-fluid py-2 row">
+                            <div class="col-2">
+                              <a class="navbar-brand" href="#">
+                                <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                              </a>
+                            </div>
+                            <div class="col-9 p-0">
+                              <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                  <a class="nav-link text-light">FR</a>
+                                </li>
+                                <li class="nav-item" style="color: deeppink;">_</li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-light">EN</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-1 p-0">
+                              <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
+                                <i class="bi bi-list fs-2 text-light"></i>
+                              </button>
+                            </div>
+                            <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu" aria-labelledby="menuLabel">
+                              <div class="offcanvas-header">
+                                  <a href="../Home/home.html">
+                                      <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                                  </a>
+                                  <button type="button" class="btn border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                                      <i class="bi bi-x fs-1 text-white"></i>
+                                  </button>
+                              </div>
+                              <div class="offcanvas-body">
+                                <ul class="navbar-nav align-items-center justify-content-center text-white" style="min-height: 70vh">
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link active text-light fw-bold p-0 my-3 mainNavItem" aria-current="page" href="../Home/strategy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">STRATEGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Acquisition</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Planning</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Program Management</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/creativity.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">CREATIVITY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Cbranding.html">Branding</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/technology.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">TECHNOLOGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsecurity.html">Security</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsolution.html">Solution</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/technology.html">Management</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="nav justify-content-evenly">
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutYou/aboutYou.html">About You</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutUs/ourStory.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                            <ul class="dropdown-menu border-0 bg-black text-center">
+                                                <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/ourStory.html">Our Story</a></li>
+                                                <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/yourPartners.html">Your Partners</a></li>
+                                                <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/agencies.html">Your Agencies</a></li>
+                                            </ul>
+                                        </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0 text-light fw-bold mainNav" href="../Home/yourAccess.html">Your Access</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0 text-light fw-bold mainNav" href="../whatsNew/whatsNew.html">What's New?</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0 text-light fw-bold mainNav" href="../career/career.html">Career</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link p-0 text-light fw-bold mainNav" href="../letsTalk/letsTalk.html">Let's Talk</a>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div>
+                        <ul class="nav flex-column justify-content-center" style="min-height: 80vh">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link fw-bold text-light" style="font-size: 98px;" data-bs-target="#Home" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2">STRATEGY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link fw-bold text-light" style="font-size: 98px;" data-bs-target="#Home" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3">CREATIVITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link fw-bold text-light" style="font-size: 98px;" data-bs-target="#Home" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4">TECHNOLOGY</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-item bg2 px-4">
+                  <nav class="navbar">
+                      <div class="container-fluid py-2 row">
+                          <div class="col-2">
+                            <a class="navbar-brand" href="#">
+                              <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                            </a>
+                          </div>
+                          <div class="col-9 p-0">
+                            <ul class="nav justify-content-end">
+                              <li class="nav-item">
+                                <a class="nav-link text-light">FR</a>
+                              </li>
+                              <li class="nav-item" style="color: deeppink;">_</li>
+                              <li class="nav-item">
+                                <a class="nav-link text-light">EN</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-1 p-0">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu1" aria-controls="offcanvasNavbar">
+                              <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                          </div>
+                          <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu1" aria-labelledby="menuLabel">
+                            <div class="offcanvas-header">
+                                <a href="../Home/home.html">
+                                    <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                                </a>
+                                <button type="button" class="btn border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <i class="bi bi-x fs-1 text-white"></i>
+                                </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav align-items-center justify-content-center text-white" style="min-height: 70vh">
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link active text-light fw-bold p-0 my-3 mainNavItem" aria-current="page" href="../Home/strategy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">STRATEGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Acquisition</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Planning</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Program Management</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/creativity.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">CREATIVITY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Cbranding.html">Branding</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/technology.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">TECHNOLOGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsecurity.html">Security</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsolution.html">Solution</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/technology.html">Management</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                              <ul class="nav justify-content-evenly">
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutYou/aboutYou.html">About You</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutUs/ourStory.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/ourStory.html">Our Story</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/yourPartners.html">Your Partners</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/agencies.html">Your Agencies</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../Home/yourAccess.html">Your Access</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../whatsNew/whatsNew.html">What's New?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../career/career.html">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../letsTalk/letsTalk.html">Let's Talk</a>
+                                </li>
+                            </ul>
+                            </div>
+                          </div>
+                      </div>
+                  </nav>
+                    <div>
+                        <ul class="nav align-items-center justify-content-between" style="min-height: 80vh">
+                            <li class="nav-item">
+                                <a class="fw-bold text-light activate text-decoration-none" style="font-size: 60px;">STRATEGY</a>
+                                <ul class="nav flex-column ms-5" style="position: absolute;">
+                                    <li class="nav-item">
+                                        <a href="../Home/strategy.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Acquisition</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/strategy.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Planning</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/strategy.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Program Management</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3">CREATIVITY</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4">TECHNOLOGY</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="position-absolute bottom-0 w-100">
+                        <h1 class="text-center mx-5 opacity-25" style="font-size: 18vw; opacity: 0.1; padding:0;">STRATEGY</h1>
+                    </div>
+                </div>
+                <div class="carousel-item bg3 px-4">
+                  <nav class="navbar">
+                    <div class="container-fluid py-2 row">
+                        <div class="col-2">
+                          <a class="navbar-brand" href="#">
+                            <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                          </a>
+                        </div>
+                        <div class="col-9 p-0">
+                          <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                              <a class="nav-link text-light">FR</a>
+                            </li>
+                            <li class="nav-item" style="color: deeppink;">_</li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light">EN</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-1 p-0">
+                          <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu2" aria-controls="offcanvasNavbar">
+                            <i class="bi bi-list fs-2 text-light"></i>
+                          </button>
+                        </div>
+                        <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu2" aria-labelledby="menuLabel">
+                          <div class="offcanvas-header">
+                              <a href="../Home/home.html">
+                                  <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                              </a>
+                              <button type="button" class="btn border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                                  <i class="bi bi-x fs-1 text-white"></i>
+                              </button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <ul class="navbar-nav align-items-center justify-content-center text-white" style="min-height: 70vh">
+                                <li class="nav-item dropdown text-center">
+                                    <a class="nav-link active text-light fw-bold p-0 my-3 mainNavItem" aria-current="page" href="../Home/strategy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">STRATEGY</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Acquisition</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Planning</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Program Management</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown text-center">
+                                    <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/creativity.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">CREATIVITY</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold" href="../Home/Cbranding.html">Branding</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown text-center">
+                                    <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/technology.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">TECHNOLOGY</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold" href="../Home/Tsecurity.html">Security</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/Tsolution.html">Solution</a></li>
+                                        <li><a class="dropdown-item fw-bold" href="../Home/technology.html">Management</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav justify-content-evenly">
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutYou/aboutYou.html">About You</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutUs/ourStory.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/ourStory.html">Our Story</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/yourPartners.html">Your Partners</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/agencies.html">Your Agencies</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../Home/yourAccess.html">Your Access</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../whatsNew/whatsNew.html">What's New?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../career/career.html">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../letsTalk/letsTalk.html">Let's Talk</a>
+                                </li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                </nav>
+                    <div>
+                        <ul class="nav align-items-center justify-content-between" style="min-height: 80vh">
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2">STRATEGY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none activate" style="font-size: 60px;">CREATIVITY</a>
+                                <ul class="nav flex-column ms-5" style="position: absolute;">
+                                    <li class="nav-item">
+                                        <a href="../Home/Cbranding.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Branding</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/creativity.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Planning</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/creativity.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Program Management</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4">TECHNOLOGY</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="position-absolute bottom-0 w-100">
+                        <h1 class="text-center mx-5" style="font-size: 15vw; opacity: 0.1;">CREATIVITY</h1>
+                    </div>
+                </div>
+                <div class="carousel-item bg4 px-4">
+                    <nav class="navbar">
+                      <div class="container-fluid py-2 row">
+                          <div class="col-2">
+                            <a class="navbar-brand" href="#">
+                              <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                            </a>
+                          </div>
+                          <div class="col-9 p-0">
+                            <ul class="nav justify-content-end">
+                              <li class="nav-item">
+                                <a class="nav-link text-light">FR</a>
+                              </li>
+                              <li class="nav-item" style="color: deeppink;">_</li>
+                              <li class="nav-item">
+                                <a class="nav-link text-light">EN</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-1 p-0">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu3" aria-controls="offcanvasNavbar">
+                              <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                          </div>
+                          <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu3" aria-labelledby="menuLabel">
+                            <div class="offcanvas-header">
+                                <a href="../Home/home.html">
+                                    <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                                </a>
+                                <button type="button" class="btn border-0" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <i class="bi bi-x fs-1 text-white"></i>
+                                </button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav align-items-center justify-content-center text-white" style="min-height: 70vh">
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link active text-light fw-bold p-0 my-3 mainNavItem" aria-current="page" href="../Home/strategy.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">STRATEGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Acquisition</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Planning</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/strategy.html">Program Management</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/creativity.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">CREATIVITY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Cbranding.html">Branding</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/creativity.html">Another action 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown text-center">
+                                        <a class="nav-link text-light fw-bold p-0 my-3 mainNavItem" href="../Home/technology.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 5vh">TECHNOLOGY</a>
+                                        <ul class="dropdown-menu border-0 bg-black text-center">
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsecurity.html">Security</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/Tsolution.html">Solution</a></li>
+                                            <li><a class="dropdown-item fw-bold" href="../Home/technology.html">Management</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                              <ul class="nav justify-content-evenly">
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutYou/aboutYou.html">About You</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../AboutUs/ourStory.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                    <ul class="dropdown-menu border-0 bg-black text-center">
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/ourStory.html">Our Story</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/yourPartners.html">Your Partners</a></li>
+                                        <li><a class="dropdown-item fw-bold mainNavDown text-start px-0" href="../AboutUs/agencies.html">Your Agencies</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../Home/yourAccess.html">Your Access</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../whatsNew/whatsNew.html">What's New?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../career/career.html">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-0 text-light fw-bold mainNav" href="../letsTalk/letsTalk.html">Let's Talk</a>
+                                </li>
+                            </ul>
+                            </div>
+                          </div>
+                      </div>
+                    </nav>
+                    <div>
+                        <ul class="nav align-items-center justify-content-between" style="min-height: 80vh">
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2">STRATEGY</a>
+                                
+                            </li>
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none" style="font-size: 60px;" data-bs-target="#Home" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3">CREATIVITY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fw-bold text-light text-decoration-none activate" style="font-size: 60px;">TECHNOLOGY</a>
+                                <ul class="nav flex-column ms-5" style="position: absolute;">
+                                    <li class="nav-item">
+                                        <a href="../Home/Tsecurity.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Security</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/Tsolution.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Solutions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="../Home/technology.html" class="nav-link fw-bold text-light mainList" style="font-size: 16px;">Management</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="position-absolute bottom-0 w-100">
+                        <h1 class="text-center mx-auto opacity-25" style="font-size: 14vw; opacity: 0.1;">TECHNOLOGY</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
